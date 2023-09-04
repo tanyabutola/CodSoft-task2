@@ -1,0 +1,258 @@
+*{ 
+   padding: 0; margin: 0; box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url("b1.png"),url("bg1.jpeg");
+    background-size: 50% 100%, cover;
+    background-position: right,center;
+    background-repeat: no-repeat, no-repeat;
+    clip-path: polygon(50% 0%, 100% 1%, 100% 75%, 50% 100%, 0% 75%, 0 0);
+}
+.logo{
+   color: white;
+   font-size:50px;
+   padding-left: 100px;
+   letter-spacing: 5px;
+}
+.menu a{
+       color: white;
+       text-decoration: none;
+       padding: 10px 20px;
+        margin:5px;
+       font-size: 20px;
+       font-weight: bold;
+     }
+     .menu{
+       margin-right: 100px;
+
+     }
+    nav{
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo span{
+        color:#e74c3c;
+    }
+    .menu a:hover{
+       background: #e74c3c;
+       transition: 0.4;
+
+    }
+    .text{
+      color: white;
+      margin-top: 100px;
+      margin-left: 100px;
+      max-width: 450px;
+    }
+    .text h1{
+      font-size: 50px;
+      margin: 10px 0px;
+    }
+    .text p{
+      font-size: 25px;
+    }
+    .c-btn{
+       border: none;
+       outline: none;
+       color: white;
+       background: #e74c3c;
+       padding: 10px;
+       margin: 20px;
+    }
+
+    #about{
+      padding: 100px 50px;
+
+    }
+    .section-info{
+               font-weight: bold;
+               text-align: center;
+    
+    }
+    .section-info h1{
+                font-size: 50px;
+    }
+
+  .about-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .about-left-col{
+    flex-basis: 50%;
+  }
+ 
+
+  .about-left-col img{
+              width: 100%;
+              padding: 50px;
+
+  }
+.about-right-col{
+       flex-basis: 50%;
+}
+#p-title{
+  font-size: 20px;
+  font-weight: bold;
+  }
+
+  .about-left-col p{
+        font-size: 20px;
+        text-align: justify;
+  }
+  button {
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+  
+  }
+  
+  button:hovor {
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+  }
+  .service {
+    background: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2 {
+
+    font-size: 75px;
+    width: 600px;
+    margin: 30px auto;
+    text-align: center;
+    background: -webkit-linear-gradient(#3c72bc, #6db3d2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+
+}
+
+.card {
+    height: 410px;
+    width: 360px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+
+h5 {
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.pra p {
+    color: #ee82ee;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.card .button {
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+
+}
+
+.card .button:hover {
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+
+
+.skills {
+    color: white;
+    text-align: center;
+
+    width: 100%;
+    height: 560px;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.skills ul {
+    list-style-type: none;
+}
+
+.skills h3 {
+
+
+    font-size: 75px;
+    width: 500px;
+    margin: 30px auto;
+    text-align: center;
+    background: -webkit-linear-gradient(#4f056c, #df3769);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.skills li {
+    padding-bottom: 3%;
+}
+#contact {
+    width: 100%;
+    height: 200px;
+    background: #101010;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contact h2 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-family: Algerian;
+}
+
+#contact p {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+
+
+
